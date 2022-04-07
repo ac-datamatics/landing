@@ -44,6 +44,15 @@ h1 {
     justify-content: center;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0; 
+    background-color: black;
+    color:white; 
+}
+
 .duo {
     max-width: 390px;
     padding: 10px;
@@ -73,4 +82,9 @@ h1 {
     background-color: black;
     color: white;
     max-width: none;
+    display: flex;
 }
+    #home img {
+        max-width: 800px;
+        align-self: center;
+    }
